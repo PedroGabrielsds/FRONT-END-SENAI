@@ -1,0 +1,65 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+
+#Cabeçalho{
+    background-color: rgb(152, 123, 93);
+    width: 100%;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+#Cabeçalho img{
+    width: 50px;
+    float: left;
+    margin: 0px 70px;
+    
+}
+
+#Menu{
+    width: 100%;
+    background-color: wheat;
+    color: brown;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    word-spacing: 15px;
+
+}
+
+#Txt{
+    border-radius: 15px;
+    background-color: rgb(235, 235, 235);
+    height: 700px;
+    
+}
+
+#Txt img{
+    width: 60%;
+    margin: 10px 0px;
+
+}
+
+#Menu a{
+    
+text-decoration: none;
+
+}
+
+body{
+    background-color: white;
+    
+
+}
+
+
+/* brown
+white
+black
+wheat
+rgb(152, 123, 93)
+rgb(235, 235, 235) */

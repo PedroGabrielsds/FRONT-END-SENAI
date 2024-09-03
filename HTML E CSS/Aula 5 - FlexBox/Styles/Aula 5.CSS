@@ -1,0 +1,50 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+
+.Pai{
+    width: 300px;
+    padding: 20px;
+    background-color: aqua;
+    display: flex;
+    /* Linha - row */
+    /* Coluna - Column */
+    /* Reverse - reverso */
+    /* Flex- direction = muda a orientação do flex */
+    flex-direction: row;
+    justify-content: space-around;
+    /* Justify-Content - Comando dos ajustes abaixo */
+    /* Space-around - Ajusta a extremidade e deixa algum espaço */
+    /* Space-Betwen - Coloca o elemento na extremidade */
+    /* Sapce-Evenly - Coloca os elementos mais no centro e deixa os espaços */
+    /* Strech - estica o elemento */
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+
+}
+
+.Filho{
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    margin: 5px;
+
+}
+
+#Pai2{
+    height: 200px;
+    align-items: start;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+#Pai2 .Filho{
+    margin: 0px;
+
+
+}

@@ -1,0 +1,72 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header, footer{
+    width: 100%;
+    padding: 20px 0px;
+    background-color: rgb(86, 138, 226);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+}
+
+header a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+
+Main{
+    width: 90%;
+    box-shadow: 5px 5px 5px rgb(223, 223, 223);   
+    margin: 10px auto;
+    padding: 5px;
+
+}
+
+H2, H4{
+    text-align: center;
+    color: blueviolet;
+
+}
+
+#Novidades ul{
+    background-color: rgb(29, 87, 222);
+    width: 80%;
+    height: 100px;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+
+}
+
+.Livros{
+    width: 150px;
+    padding: 10px;
+    background-color: rgb(29, 87, 222);
+    margin: 10px;
+
+}
+
+#Termosliterarios dl{
+    background-color: rgb(29, 87, 222);
+    width: 80%;
+    height: 100px;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+footer{
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+
+}
