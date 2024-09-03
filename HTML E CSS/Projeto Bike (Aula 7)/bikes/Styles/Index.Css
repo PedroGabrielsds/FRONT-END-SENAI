@@ -1,0 +1,50 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+:root{
+    --primaria: black;
+    --secundaria: grey;
+
+}
+
+nav{
+    background-color: var(--primaria);
+
+
+}
+
+header, main, footer{
+    width: 100%;
+
+
+}   
+
+#banner{
+    width: 50%;
+    height: 400px;
+    background-image: url(../Imagens/ImagensGeral/Banner.jpg);
+    display: flex;
+    justify-content: center;
+    /* Background-image - coloca imagem */
+    background-repeat: no-repeat;
+    /* background-repeat - controla repetição da imagem */
+    background-size: cover;
+    /* background-size - ajusta o tamanho do background */
+    background-position: center;
+    margin: 50px 30px;
+}
+
+#logo{
+    
+    
+}
+
+#logo img{
+    width: 100px;
+    
+    
+
+}
+
