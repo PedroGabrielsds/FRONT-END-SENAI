@@ -40,11 +40,12 @@ nav{
 
 main{
     
+    background-color: gray;
 
 }
 
 #Conteudo{
-    
+
 
 }
 
@@ -54,12 +55,24 @@ main{
 
 #Banner{
     
+    background-color: aqua;    
 
 }
 
+footer{
 
 
+}
 
+#Creditos{
+
+
+}
+
+#Arroba{
+
+
+}
 
 /* brown
 white
