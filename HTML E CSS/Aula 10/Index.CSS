@@ -1,0 +1,165 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+:root{
+    --primary: rgb(135, 0, 255);
+    --tamanhoTitulo: 48px;
+    --font: "trebuchet";
+    --FontColor: white;
+}
+
+header, footer{
+    width: 100%;
+    background-color: var(--primary);
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav{
+    display: flex;
+    gap: 10px;
+}
+.submenu{
+    color: white;
+    text-align: center;
+    
+}
+
+.submenu:hover{
+    background-color: rgb(0, 0, 0);
+    
+}
+
+#PesquisarBtn{
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    color: var(--primary);
+    border: none;
+    transition: 0.5s;
+}
+
+#PesquisarBtn:hover{
+    background-color: var(--primary);
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+    border: 2px solid white;
+    
+}
+
+#PesquisarBtn:active{
+    background-color: rgb(0, 0, 0);
+
+}
+
+a{
+    color: var(--FontColor);
+    text-decoration: none;
+}
+
+a[href="index.html"]:hover{
+    color: rgb(59, 255, 10);
+    font-size: 20pt;
+    text-decoration: underline;
+}
+
+input{
+    width: 200px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(198, 198, 198);
+    border: 2px solid white;
+}
+
+input:focus{
+    padding: 10px;
+    outline-style: none;
+    border: 2px solid blueviolet;
+    transition: 1s;
+}
+
+/* Main... */
+
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    padding: 20px;
+    
+}
+
+#Catalogo .Categoria{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(244, 244, 95);
+}
+
+#Catalogo h1{
+    font-size: 40px;
+
+}
+
+#Setor .Verao{
+    color: rgb(255, 0, 0);
+
+}
+
+
+#Product img{
+    width: 100%;
+    height: 200px;
+    
+}
+
+
+
+/*========================================
+ has (+ ou >) ou  not  */
+/* Ex: "has" (+):
+    HTML: <H1>Titulo</H1>
+          <p>Paragrafo!</p>
+
+    CSS:  
+    "h1: has(+ p){
+        Color: red;
+    
+    }
+=========================================
+
+    Ex: "has" (>):
+    HTML: <H1>Titulo <p>Paragrafo!</p> </H1>
+
+    CSS:
+    h1: has(> p){
+        Color: red; 
+        
+=========================================        
+" */
+
+h1:has(+ p){
+    color: blueviolet;
+
+}
+
+.Preço:has(){
+    color: rgb(13, 243, 13);
+
+}
+
+/* ::after ou ::before - Adiciona algo depois ou antes do elemento. */
+
+.Preço::after{
+    content: "💲";
+
+}
+
+#Product button{
+    background-color: rgb(0, 190, 0);
+    color: whitesmoke;
+    width: 100%;
+}
