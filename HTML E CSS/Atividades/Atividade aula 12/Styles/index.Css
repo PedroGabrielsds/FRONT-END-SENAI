@@ -1,0 +1,82 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header, footer{
+    width: 100%;
+    background-color: rgb(28, 28, 28);
+}
+
+#Cabeçalho{
+    width: 100%;
+    height: 50px;
+}
+
+.Menu{
+    color: white;
+    line-height: 45px;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+.Submenu a{
+    text-decoration: none;
+    gap: 20px;
+    color: white;
+
+}
+
+main{
+    width: 100%;
+
+}
+
+main h3{
+    text-align: center;
+    margin: 5px;
+}
+
+hr{
+    width: 30%;
+    margin: 0px 320px;
+    color: red;
+
+}
+
+#Conteudo{
+    width: 100%;
+    
+}
+
+.Artigo{
+    width: 60%;
+    height: 800px;
+    margin: 20px 190px;
+    border: 5px solid black;
+    border-radius: 3%;
+    text-align: center;
+    
+}
+
+.Artigo img{
+    width: 80%;
+    margin: 20px;
+    
+}
+
+.Artigo button{
+    width: 15%;
+    height: 30px;
+    margin: 40px;
+    background-color: red;
+    border: red;
+    Color: white;
+    border-radius: 10%;
+}
+
+footer{
+
+
+}

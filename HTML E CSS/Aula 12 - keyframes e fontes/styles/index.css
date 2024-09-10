@@ -1,0 +1,81 @@
+@keyframes teste {
+    0%{
+        border: 5px solid var(--Cor1);
+        box-shadow: 10px;
+    }
+    50%{
+        border: 5px solid var(--Cor2);
+        box-shadow: 10px;
+    }
+    100%{
+        border: 5px solid var(--Cor3);
+        box-shadow: 10px;
+    }
+}
+
+#Animar{
+    width: 5%;
+    height: 50px;
+    margin: 70px;
+    background-color: rgb(255, 255, 255);
+    animation-name: teste;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+#Animar:hover{
+    animation-name: teste;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+#Animar img{
+    width: 45px;
+    height: 45px;
+}
+
+@font-face {
+    font-family: Anton;
+    src: url(../Fonts/Anton/Anton-Regular.ttf);
+}
+
+@font-face {
+    font-family: American Captain;
+    src: url(../Fonts/American\ Captain);
+    
+}
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+
+:root{
+    --Cor1: red;
+    --Cor2: rgb(0, 255, 0);
+    --Cor3: blue;
+    --Cor4: rgb(0, 0, 0);
+}
+
+h1, h2, p{
+    font-family: Anton;
+
+}
+
+header{
+
+
+}
+
+
+main{
+
+
+}
+
+footer{
+
+
+}
