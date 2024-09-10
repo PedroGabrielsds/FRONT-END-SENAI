@@ -40,8 +40,8 @@ main h3{
 
 hr{
     width: 30%;
-    margin: 0px 320px;
-    color: red;
+    margin: 0px auto;
+    border: 5px solid red;
 
 }
 
@@ -52,18 +52,19 @@ hr{
 
 .Artigo{
     width: 60%;
-    height: 800px;
-    margin: 20px 190px;
+    margin: 20px auto;
     border: 5px solid black;
     border-radius: 3%;
     text-align: center;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
     
 }
 
 .Artigo img{
     width: 80%;
     margin: 20px;
-    
 }
 
 .Artigo button{
