@@ -6,12 +6,12 @@ Alinhamento (flexbox):
 Linha - row
 Coluna - Column
 Reverse - reverso
-- Justify-Content - Alinha na vertical
+- Justify-Content - Alinha na horizontal
 Space-around - Ajusta a extremidade e deixa algum espaço
 Space-Betwen - Coloca o elemento na extremidade
 Sapce-Evenly - Coloca os elementos mais no centro e deixa os espaços
 Strech - estica o elemento
-- Align-itens - Alinha a altura
+- Align-itens - Alinha a vertical
 - Gap - 
 - Text-align - 
 -----------------------------------------------------------------------------------------------------
@@ -33,6 +33,7 @@ Personalização:
 - Box-shadow - 
 
 - Color - 
+- Opacity - Opacidade da cor
 
 - Bacground-color - Defini a cor de fundo
 - Background-image - coloca imagem
@@ -48,6 +49,10 @@ Personalização:
 - Cursor - 
 - :hover - 
 - :empty -
+= :active - 
+
+-@Font-face - 
+-@Media
 ---------------------------------------------------------------------------------------------------------
 Descobrir:
 - top - 
@@ -60,7 +65,11 @@ Animação:
 
 
 ---------------------------------------------------------------------------------------------------------
-
+Imagens: 
+- Overflow - 
+- Overflow-y - 
+- Position - 
+- Top - 
 
 
 

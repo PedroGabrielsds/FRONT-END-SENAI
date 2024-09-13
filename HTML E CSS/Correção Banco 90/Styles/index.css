@@ -1,0 +1,144 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  font-family: var(--fontPrimaria), Arial;
+}
+
+:root{
+  --Cor1: red;
+  --Cor2: rgb(0, 255, 0);
+  --Cor3: Blue;
+  --Cor4: rgb(255, 166, 0);
+  --Cor5: White;
+  --fontPrimaria: Roboto;
+  --fontSecundaria: Arial;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: var(--fontPrimaria);
+
+
+}
+
+header, footer{
+  width: 100%;
+  height: 100px;
+  background-color: var(--Cor1);
+  color: var(--Cor5);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+nav{
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+
+nav ul{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 20px;
+
+}
+
+nav ul a{
+  color: var(--Cor5);
+  text-decoration: none;
+
+}
+
+nav ul a:hover{
+  text-decoration: underline;
+  
+}
+
+#MenuDireito button{
+  padding: 10px;
+  background-color: var(--Cor1);
+  border: 2px solid var(--Cor5);
+  border-radius: 5px;
+  color: var(--Cor5);
+}
+
+#BtnHeader{
+  position: fixed;
+  bottom: 0%;
+  right: 0%;
+}
+
+
+/* main */
+
+main{
+
+}
+
+section{
+  width: 100%;
+  padding: 10px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#Banner{
+  height: 500px;
+  overflow-y: hidden;
+  align-items: start;
+  /* background-image: url(../images/banner.jpg); 
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;*/
+}
+
+#Banner img{
+width: 100%;
+
+}
+
+#Mensagem{
+  position: absolute;
+  width: 44%;
+  top: 200px;
+  background-color: rgba(255, 166, 0, 0.373);
+}
+
+.Agrupamento{
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+
+}
+
+.Cards{
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+
+}
+
+@media screen and (max-width: 600px){
+  .Agrupamento{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+
+
+/* footer */
+
+footer{
+
+
+}
