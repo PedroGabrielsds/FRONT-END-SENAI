@@ -1,0 +1,184 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgb(180, 180, 180);
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+}
+
+#Cabeçalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#Logon{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Main */
+
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Banner{
+    width: 90%;
+    height: 300px;
+    margin: 10px 0px;
+    border: 3px solid black;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Inicio Melhores Produtos */
+
+#Melhores{
+    width: 90%;
+    height: auto;
+    background-color: black;
+    display: flex;
+
+}
+
+#Esquerda{
+    width: 30%;
+    background-color: red;
+
+}
+
+#Meio{
+    width: 45%;
+    margin: 0px 8px;
+    background-color: rgb(0, 255, 0);
+
+}
+
+#Direita{
+    width: 25%;
+    background-color: aqua;
+
+}
+
+.Best{
+    width: 100%;
+    height: 175px;
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+
+}
+/* Fim melhores produtos */
+
+/* Inicio Categorias */
+
+#TituloCategorias h3{
+    width: 100%;
+    margin: 10px 0px;
+    text-align: center;
+    
+}
+
+#Categorias{
+    width: 90%;
+    height: 500px;
+    margin: 10px 0px;
+    display: flex;
+    background-color: aqua;
+    
+}
+
+#Caixas{
+    width: 40%;
+    height: auto;
+    margin: 10px;
+    background-color: white;
+
+}
+
+.Opçoes{
+    width: 90%;
+    margin: 30px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.Opçoes button{
+    width: 10%;
+    height: 20px;
+    background-color: white;
+}
+
+#Diversos{
+    width: 70%;
+    margin: 5px;
+    gap: 10px;
+    display: flex;
+    background-color: violet;
+
+}
+
+.ProdutosDiversos{
+    width: 70%;
+    height: 100px;
+    margin: 10px 10px;
+    border: 2px solid black;
+
+
+}
+
+
+/* Fim Categorias */
+
+
+
+/* Footer */
+
+footer{
+    width: 100%;
+    height: 80px;
+    margin: 10px 0px 0px 0px;
+    background-color: rgb(56, 56, 56);
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+
+}
+
+#Final{
+    width: 100%;
+    display: flex;
+    
+}
+
+#Contatos{
+    padding: 0px 30px 0px 0px;
+
+}
+
+#Creditos{
+    display: flex;
+    justify-content: center;
+
+}
+
