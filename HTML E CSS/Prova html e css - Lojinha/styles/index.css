@@ -8,8 +8,9 @@ header{
     width: 100%;
     height: 80px;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     background-color: rgb(180, 180, 180);
 }
 
@@ -19,16 +20,33 @@ header a{
 }
 
 #Cabeçalho{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    margin: 0px 30px;
+
 }
 
-#Logon{
+#Menu{
+    width: 40%;
     display: flex;
-    flex-direction: column;
+    align-items: center;
 }
 
+#Menu img{
+    width: 100%;
+    
+}
+
+#Logon {
+    width: 20%;
+    margin: 0px 30px 0px 0px;
+    display: flex;
+    align-items: center;
+
+}
+
+#Logon img{
+    width: 15%;
+
+}
 
 /* Main */
 
@@ -43,52 +61,75 @@ main{
     width: 90%;
     height: 300px;
     margin: 10px 0px;
-    border: 3px solid black;
-    background-color: black;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+#Banner img{
+    width: 100%;
+    height: 300px;
+}
+
 /* Inicio Melhores Produtos */
 
 #Melhores{
     width: 90%;
-    height: auto;
-    background-color: black;
     display: flex;
+    margin: 10px 0px;
 
 }
 
 #Esquerda{
     width: 30%;
-    background-color: red;
+    
 
+}
+
+#Esquerda img{
+    width: 100%;
+    height: 400px;
 }
 
 #Meio{
     width: 45%;
     margin: 0px 8px;
-    background-color: rgb(0, 255, 0);
+    
+}
 
+#Meio img{
+    width: 100%;
+    height: 400px;
 }
 
 #Direita{
     width: 25%;
-    background-color: aqua;
 
 }
 
 .Best{
     width: 100%;
     height: 175px;
+    margin: 0px 0px 20px;
     display: flex;
     flex-direction: column;
     background-color: blue;
 
 }
+
+#Decima{
+    margin: 0px 0px 20px;
+
+}
+
+#Debaixo{
+    margin: 50px 0px 0px;
+}
+
+
 /* Fim melhores produtos */
+
 
 /* Inicio Categorias */
 
@@ -102,55 +143,137 @@ main{
 #Categorias{
     width: 90%;
     height: 500px;
-    margin: 10px 0px;
+    margin: 20px 0px;
     display: flex;
-    background-color: aqua;
+    flex-direction: row;
+    justify-content: space-around;
     
 }
 
-#Caixas{
-    width: 40%;
-    height: auto;
-    margin: 10px;
+/* Inicio MiniMenu */
+
+#MiniMenu h3{
+    text-align: center;
+
+}
+
+#MiniMenu{
+    width: 30%;
+
     background-color: white;
 
 }
 
-.Opçoes{
-    width: 90%;
-    margin: 30px 0px;
+#MiniMenu ul{
+    width: 100%;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    
+    
 }
 
-.Opçoes button{
-    width: 10%;
+#MiniMenu li{
+    list-style: none;
+    margin: 15px;
+
+}
+
+#MiniMenu button{
+    width: 20px;
     height: 20px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
+
 }
 
+/* Fim MiniMenu */
+
+/* Inicio Diversos */
 #Diversos{
     width: 70%;
-    margin: 5px;
-    gap: 10px;
+    background-color: white;
+
+}
+
+#ProdutosDiversos{
+    width: 100%;
     display: flex;
-    background-color: violet;
+    flex-direction: row;
+}
+
+.Produtos{
+    width: 30%;
+    height: 200px;
+    margin: 5px ;
 
 }
 
-.ProdutosDiversos{
-    width: 70%;
-    height: 100px;
-    margin: 10px 10px;
-    border: 2px solid black;
-
+.Produtos img{
+    width: 100%;
+    height: 130px;
 
 }
 
+#ProdutosDiversos2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
 
+.Produtos2{
+    width: 30%;
+    height: 200px;
+    margin: 5px ;
+}
+
+.Produtos2 img{
+    width: 100%;
+    height: 130px;
+}
+/* Fim Diversos */
 /* Fim Categorias */
 
+/* Inicio Explore */
 
+#Explore{
+    width: 90%;
+    display: flex;
+    margin: 10px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#ExploreMais{
+    width: 100%;
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.Serviços{
+    width: 30%;
+    height: 300px;
+    margin: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(200, 200, 200);
+    border: 3px solid rgb(182, 182, 182);
+
+}
+
+.Serviços img{
+    width: 50%;
+
+}
+
+
+
+/* Fim Explore */
 
 /* Footer */
 
