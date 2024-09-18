@@ -1,0 +1,191 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(180, 180, 180);
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+}
+
+#Cabeçalho{
+    margin: 0px 30px;
+
+}
+
+#Menu{
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+
+#Menu img{
+    width: 100%;
+    
+}
+
+#Logon {
+    width: 20%;
+    margin: 0px 30px 0px 0px;
+    display: flex;
+    align-items: center;
+
+}
+
+#Logon img{
+    width: 15%;
+
+}
+
+/* Fim Header */
+
+/* Main */
+main{
+    width: 100%;
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#Catalogo{
+    width: 90%;
+    height: 500px;
+    margin: 0px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#Produto{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#Produto img{
+    width: 50%;
+    margin: 0px 10px;
+    height: 500px;
+    display: flex;
+}
+
+#Informaçoes{
+    width: 50%;
+    height: 500px;
+}
+
+hr{
+    margin: 370px 0px 0px 0px;
+}
+
+#Venda{
+    width: 100%;
+    margin: 10px 0px 0px 0px;
+    display: flex;
+    justify-content: left;
+    align-items: center
+}
+
+#Btn button{
+    margin: 0px 0px 0px 200px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: whitesmoke;
+}   
+
+#Recomendados{
+    width: 70%;
+    margin: 30px 0px 0px 0px;
+
+}
+
+#Recomendados h2{
+    text-align: center;
+
+}
+
+#ProdutosDiversos{
+    width: 100%;
+    margin: 0px 0px 20px 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.Produtos{
+    width: 30%;
+    height: 200px;
+    margin: 5px;
+
+}
+
+.Produtos img{
+    width: 100%;
+    height: 150px;
+
+}
+
+#ProdutosDiversos2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.Produtos2{
+    width: 30%;
+    height: 200px;
+    margin: 5px ;
+}
+
+.Produtos2 img{
+    width: 100%;
+    height: 130px;
+}
+
+/* Fim Main */
+
+/* Footer */
+
+footer{
+    width: 100%;
+    height: 80px;
+    margin: 10px 0px 0px 0px;
+    background-color: rgb(56, 56, 56);
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+
+}
+
+#Final{
+    width: 100%;
+    display: flex;
+    
+}
+
+#Contatos{
+    padding: 0px 30px 0px 0px;
+
+}
+
+#Creditos{
+    display: flex;
+    justify-content: center;
+
+}
