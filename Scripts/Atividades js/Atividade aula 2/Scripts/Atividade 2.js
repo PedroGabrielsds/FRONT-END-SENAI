@@ -21,6 +21,8 @@ let Idade = prompt("Qual sua idade?")
 }
 
 function Atividade2(){
+    // parseInt - Converte variavel do tipo number inteiro
+    // parseFloat - Converte variavel do tipo number real
     let Numero1 = Number(prompt("Qual número?"))
     let Operador = prompt("Qual operador?")
     let Numero2 = Number(prompt("Por: "))
