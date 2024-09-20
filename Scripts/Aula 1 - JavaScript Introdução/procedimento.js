@@ -9,3 +9,28 @@ function procedimento(){
 
     alert(`A soma dos números é de ${resultado}`)
 }
+
+//----------------------------------------------------------------
+
+// Código da correção do Victor
+
+
+//function ex1Correcao(){
+    // let nClientes = Number(prompt("Numero de clientes:"))
+    //let vTotal = Number(prompt("Valor total da mesa R$:"))
+
+    //let resultadoDaConta = vTotal / nClientes
+
+    //alert(`O valor para cada cliente é de : ${resultadoDaConta}`)
+//}
+
+//2-Sucessor e antecessor, faça uma aplicação que colete um número digitado pelo usuário e logo em seguida mostre em ordem: o numero anterior a ele, o próprio número escolhido e o número sucessor a ele
+//input = numero
+//output = sucessor, antecessor, numero
+
+
+//function ex2Correcao(){
+    //let numero = Number(prompt("Digite um numero"))
+
+    //alert(`O antecessor é ${numero - 1}, o próprio numero é ${numero} e o sucessor é ${numero + 1}`)
+//}
