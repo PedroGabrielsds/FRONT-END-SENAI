@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/Calculadora JavaScript/styles/index.css">
+        <title>Calculara JS</title>
+    </head>
+    <body>
+        <header></header>
+
+        <main>
+            <div id="calculadora">
+                <section class="fileiras" id="PrimeiraFila">
+                    <div class="Numero"><button type="button" onclick="B1(`1`)">  1  </button></div>
+                    <div class="Numero"><button type="button" onclick="B2(`2`)">  2  </button></div>
+                    <div class="Numero"><button type="button" onclick="B3(`3`)">  3  </button></div>
+                </section>
+                <section class="fileiras" id="SegundaFila">
+                    <div class="Numero"><button type="button" onclick="B4(`4`)">  4  </button></div>
+                    <div class="Numero"><button type="button" onclick="B5(`5`)">  5  </button></div>
+                    <div class="Numero"><button type="button" onclick="B6(`6`)">  6  </button></div>
+                </section>
+                <section class="fileiras" id="TerceiraFila">
+                    <div class="Numero"><button type="button" onclick="B7(`7`)">  7  </button></div>
+                    <div class="Numero"><button type="button" onclick="B8(`8`)">  8  </button></div>
+                    <div class="Numero"><button type="button" onclick="B9(`9`)">  9  </button></div>
+                    
+                </section>
+                <section class="fileiras" id="QuartaFila">
+
+                    <div id="Zero"><button onclick="B0(`0`)" type="button"> 0 </button></div>
+
+                </section>
+                
+                <section class="fileiras" id="Operadores">
+                    <div class="Op"><button type="button" onclick="Op1(`+`)">  +  </button></div>
+                    <div class="Op"><button type="button" onclick="Op2(`-`)">  -  </button></div>
+                    <div class="Op"><button type="button" onclick="Op3(`*`)">  *  </button></div>
+                </section>
+                <section class="fileiras" id="Operadores">
+                    <div class="Op"><button type="button" onclick="Op4(`/`)">  /  </button></div>
+                    <div class="Op" id="Resetar"><button type="button" onclick="Reset(`Resetar`)"> Resetar </button></div>
+                    <div class="Op"><button type="button" onclick="Op5(`=`)">  = </button></div>
+                </section>
+           
+            </div> 
+
+
+        </main>
+    
+        <footer>
+        </footer>
+
+        <script src="/Calculadora JavaScript/Scripts/Scripts/Calculadora.js"></script>
+    </body>
+</html>
