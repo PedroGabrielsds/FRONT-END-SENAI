@@ -2,7 +2,11 @@ Estruturas condicionais:
 - ( If( ){ 
      }else{ } )
 
-- 
+- Switch(Expressão){
+            //case
+                //(Bloco)
+                //break
+    // }
 
 Estrutura de Repetição:
 
@@ -12,3 +16,14 @@ Estrutura de Repetição:
 
 -
    
+
+-------------------------------------------------------------------------
+// = Atribuição
+    // == comparação de conteudo
+    // === Comparação de conteudo e tipo
+    // != não igual diferente 
+    // & (Equivale ao "e")
+    // || (Equivale ao "ou")
+
+// parseInt - Converte variavel do tipo number inteiro
+    // parseFloat - Converte variavel do tipo number real
