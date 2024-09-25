@@ -51,7 +51,13 @@ Personalização:
 - :empty -
 = :active - 
 
--@Font-face - 
+
+- @font-face {
+    font-family: Name-Font;
+    src: url(Local file)
+    font-weight: Type-Font ;
+}
+
 -@Media
 ---------------------------------------------------------------------------------------------------------
 Descobrir:
