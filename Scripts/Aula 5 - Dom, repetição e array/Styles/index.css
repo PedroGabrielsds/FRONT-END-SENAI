@@ -1,0 +1,43 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header input{
+    width: 30%;
+    padding: 10px;
+    border: 2px solid goldenrod;
+    border-radius: 10px;
+    background-color: black;
+    margin: 0px 5px;
+    color: goldenrod;
+}
+
+
+header button{
+    width: 10%;
+    padding: 10px; 
+    background-color: black;
+    border: 2px solid goldenrod;
+    border-radius: 10px;
+    color: goldenrod;
+}
+
+.Elementos{
+    width: 30%;
+    margin: 5px;
+    padding: 8px;
+    background-color: black;
+    color: aqua;
+
+}

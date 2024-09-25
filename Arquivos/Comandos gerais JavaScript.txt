@@ -1,0 +1,14 @@
+Estruturas condicionais: 
+- ( If( ){ 
+     }else{ } )
+
+- 
+
+Estrutura de Repetição:
+
+- (Enquanto) corresponde a ( While( ){ } ) 
+    
+- (Para) corresponde a ( for( ){ } )
+
+-
+   
