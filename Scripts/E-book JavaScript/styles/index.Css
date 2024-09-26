@@ -139,6 +139,11 @@ main{
 
 }
 
+.Elementos{
+    height: 100px;
+    overflow-y: scroll;
+}
+
 .Livro img{
     width: 90%;
     margin: 10px 0px 0px 0px;
