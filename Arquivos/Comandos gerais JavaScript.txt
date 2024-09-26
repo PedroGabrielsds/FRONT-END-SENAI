@@ -18,12 +18,30 @@ Estrutura de Repetição:
    
 
 -------------------------------------------------------------------------
-// = Atribuição
-    // == comparação de conteudo
-    // === Comparação de conteudo e tipo
-    // != não igual diferente 
-    // & (Equivale ao "e")
-    // || (Equivale ao "ou")
+Funções:
 
-// parseInt - Converte variavel do tipo number inteiro
-    // parseFloat - Converte variavel do tipo number real
+- " = " Atribuição
+
+- " == " comparação de conteudo
+
+- " === " Comparação de conteudo e tipo
+
+- " != " não igual diferente 
+
+- " & " (Equivale ao "e")
+
+- " || " (Equivale ao "ou")
+
+- parseInt - Converte variavel do tipo number inteiro
+
+- parseFloat - Converte variavel do tipo number real
+
+-------------------------------------------------------------------------
+
+
+
+
+
+
+
+
