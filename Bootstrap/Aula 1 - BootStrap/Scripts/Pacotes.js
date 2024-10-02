@@ -9,7 +9,7 @@ class Pacotes{
 }
 
 var TodosPacotes = []
-TodosPacotes.push(new Pacotes("#", "Nordeste", "Melhor comida brasileira", 350, ["Pacote 3 dias", "Pacote 5 dias"] ))
+TodosPacotes.push(new Pacotes("#", "Paris", "uma das 7 maravilhas do mundo", "R$1.350", ["Pacote 5 dias", " pacote 12 dias"] ))
 
 TodosPacotes.forEach(CadaPacote => {
     document.getElementById("Catalogo").innerHTML += `
