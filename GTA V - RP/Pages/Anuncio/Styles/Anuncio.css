@@ -28,123 +28,75 @@ header{
     align-items: center;
 }
 
-#Menu a img{
-    width: 100%;
+#Menu img{
+    width: 10%;
     border-radius: 20px;
 }
 
 #Menu a{
-    width: 10%;
     text-decoration: none;
     color: green;
 }
-
+ 
 /* Fim header */
 
 /* Main */
 
+
 main{
     width: 100%;
     background-color: black;
+
 }
 
-#Banner{
-    width: 90%;
-    height: 400px;
-    margin: 0px 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(../../Images/Banner.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-#Banner button{
-    width: 30%;
-    height: 50px;
+#Venda{
+    width: 100%;
+    
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+}
+
+#IMG{
+    width: 50%;
+    margin: 0px 20px;
+}
+
+#IMG img{
+    width: 100%;
+    display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(0, 0, 0);
-    border: 2px solid red;
-    color: green;
-    border-radius: 50px;
-    font-size: 30px;
 }
 
 #Info{
-    width: 100%;
-    height: 400px;
-    gap: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    color: whitesmoke;
-}
-
-
-
-#Donos{
-    
-    display: flex;
-    flex-direction: row;
-    gap: 50px;
-    
-}
-
-.Ususarios{
     width: 50%;
-    display: flex;
-    flex-direction: row;
-}
-
-
-
-.Ususarios img{
-    width: 10%;
-    
-}
-
-#Pitter h2{
-    text-align: center;
-    color: red;
-
-}
-
-#Hulk h2{
-    text-align: center;
+    padding: 20px 0px;
     color: green;
-
 }
 
-/* Fim Main */
 
+/* Fim main */
 
-
-/* Footer */
+/* footer */
 
 footer{
     width: 100%;
+    height: auto;
     display: flex;
     justify-content: center;
     background-color: rgb(0, 0, 0);
-    
 }
 
 #Final{
     width: 90%;
-    margin: 10px 0px;
+    margin: 10px;
     height: auto;
     display: flex;
     flex-direction: row;
     background-color: black;
     border: 2px solid red;
     border-radius: 50px;
-    
 }
 
 .Contato{
@@ -159,11 +111,9 @@ footer{
 
 .Contato img{
     width: 50px;
-    
 }
 
 #Insta{
     width: 100%;
     
-
 }
