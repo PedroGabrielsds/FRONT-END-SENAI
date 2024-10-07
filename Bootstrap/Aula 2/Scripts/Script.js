@@ -1,3 +1,5 @@
+
+
 class Pacote{
     constructor(srcImg, local, descricao, preco){
         this.srcImg = srcImg;
@@ -32,6 +34,5 @@ todosPacotes.forEach(cadaPacote => {
         </div>
     
     `
-
 });
 
